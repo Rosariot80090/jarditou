@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Page CONTACT</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <h3>PAGE CONTACT :</h3>
+    <!--insertion image JARDITOU-->
+    <img src="jarditou_logo.jpg" alt="logo jarditou" title="logo jarditou">
+    <br>
+        <p>La qualité depuis 70 ans</p>
+    <br>
+        <!--création d'une liste non-ordonnée avec un lien vers des fichiers dans le même répertoire-->
+    <ul>
+        <li><a href="Accueil.html" title="Accueil.html">Accueil</a></li>
+        <li><a href="Tableau.html" title="Tableau.html">Tableau</a></li>
+        <li><a href="Contact.html" title="Contact.html">Contact</a></li>
+    </ul>
+        <!--insertion d'une image PROMOTION-->
+    <img src="promotion.jpg" alt="promo" title="promotion sur lames terrasse">
+    <br>
+        <!--Ouverture d'une section "Contact"-->    
+    <section><h3>Contact</h3></section>
+        
+    <hr>
+        <!--insertion d'un formulaire-->
+        <p>* Ces zones sont obligatoires</p>
+    <form action="http://bienvu.net/script.php" method="post">
+        <h3>Vos coordonnées</h3><br>
+        <label for="nom">Votre nom* :</label>
+        <input type="text" name="nom" id="nom"><br>
+        <br>
+        <label for="prénom">Votre prénom* :</label>
+        <input type="text" name="prénom" id="prénom"><br>
+        <p>Sexe* :<input type="radio" name="genre" value="Homme">Homme            
+                 <input type="radio" name="genre" value="Femme">Femme
+            
+        </p>
+            <br>
+        <p>Date de naissance* :<input type="date" name="ddn" id="date"></p>
+        <br>
+        <label for="codepostal">Code Postal* :</label>
+        <input type="text" name="codepostal" id="codepostal">
+        <br>
+        <br>
+        <label for="Adresse">Adresse :</label>
+        <input type="text" name="Adresse" id="Adresse">
+        <br>
+        <br>
+        <label for="Ville">Ville :</label>
+        <input type="text" name="Ville" id="Ville">
+        <br>
+        <br>
+        <label for="Email">Email* :</label>
+        <input type="text" name="Email" id="Email">
+        <br>
+
+        <h3>Votre demande</h3>
+        <label for="nom">Sujet* :</label>
+        <select id="Veuillez_selectionner_un_sujet">
+            <option value="Veuillez selectionner un sujet">Veuillez selectionner un sujet</option>
+            <option value="Mes commandes">Mes commandes</option>
+            <option value="Question sur un produit">Question sur un produit</option>
+            <option value="Réclamation">Réclamation</option>
+            <option value="Autres">Autres</option>
+        </select>
+        <br>
+        <p>Votre question* :<input type="text" name="question"></p>
+        <br>
+        <input type="checkbox" name="j'accepte_le_traitement_informatique_de_ce_formulaire">* J'accepte le traitement informatique de ce formulaire
+        <br>
+        <br>
+        <input type="submit" value="Envoyer">
+        <input type="submit" value="Annuler">
+    </form>
+    <br>
+    <hr>
+    <!--création d'une liste non-ordonnée avec un lien vers des fichiers dans le même répertoire-->
+    <ul>
+        <li><a href="Mentions_légales.html" title="Mentions_légales.html">Mentions légales</a></li>
+        <li><a href="Horaires.html" title="Horaires.html">Horaires</a></li>
+        <li><a href="Plan_du_site.html" title="Plan_du_site.html">Plan du site</a></li>
+    </ul>
+</body>
+</html>
