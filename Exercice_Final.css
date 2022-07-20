@@ -1,0 +1,22 @@
+/*largeur du logo 100%des 30% définie en header1*/
+
+.logo{
+    /*largeur invariable lorsqu'on rétrécit l'écran*/
+    max-width: 100%;
+}
+
+
+/*largeur de la bande promotionnelle (toute la largeur de la page*/
+
+.promo{
+    width: 100%;
+}
+.qualite{
+    font-size: 50px;
+}
+.pavé{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}

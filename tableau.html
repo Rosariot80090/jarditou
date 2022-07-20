@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Page TABLEAU</title>
+   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <title>tableau.html</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <H3>PAGE TABLEAU</H3>
-    <!--insertion image JARDITOU-->
-    <img src="jarditou_logo.jpg" alt="logo jarditou" title="logo jarditou">
-    <br>
-        <p>La qualité depuis 70 ans</p>
-    <br>
-        <!--création d'une liste non-ordonnée avec un lien vers des fichiers dans le même répertoire-->
-    <ul>
-        <li><a href="Accueil.html" title="Accueil.html">Accueil</a></li>
-        <li><a href="Tableau.html" title="Tableau.html">Tableau</a></li>
-        <li><a href="Contact.html" title="Contact.html">Contact</a></li>
-    </ul>
+     <!--insertion image JARDITOU-->
+     <header>
+        <div id="header1">
+        
+            <img class="logo" src="jarditou_logo.jpg" alt="logo jarditou" title="logo jarditou" > 
+          
+        </div>
+
+        <div id="header2">
+        
+            <p class="slogan">Tout sur le jardin</p> 
+        
+        </div>
+    </header>
+    
+        <!--création d'un menu horizontal-->
+    <nav class="pave">
+        
+        <a class="pave" href="accueil.html" title="Accueil.html">Accueil</a>
+        <a class="pave" href="Tableau.html" title="Tableau.html">Tableau</a>
+        <a class="pave" href="contact.html" title="Contact.html">Contact</a> 
+        
+    </nav>       
+       
         <!--insertion d'une image PROMOTION-->
-    <img src="promotion.jpg" alt="promo" title="promotion sur lames terrasse">
+    <img class="promo" src="promotion.jpg" alt="promo" title="promotion sur lames terrasse">
+    
     <br>
-        <!--Ouverture d'une section "Tableau"-->    
+        <!--Ouverture d'une section "Accueil"-->    
+
+   
     <section><h3>Tableau</h3></section>
     <hr>
     <table>
@@ -95,10 +111,12 @@
    </table> 
    <hr>
    <!--création d'une liste non-ordonnée avec un lien vers des fichiers dans le même répertoire-->
-   <ul>
-       <li><a href="Mentions_légales.html" title="Mentions_légales.html">Mentions légales</a></li>
-       <li><a href="Horaires.html" title="Horaires.html">Horaires</a></li>
-       <li><a href="Plan_du_site.html" title="Plan_du_site.html">Plan du site</a></li>
-   </ul>
+   <nav class="pave">
+        
+    <a class="pave" href="Mentions_légales" title="Mentions_légales">Mentions légales</a>
+    <a class="pave" href="Horaires" title="Horaires">Horaires</a>
+    <a class="pave" href="Plan_du_site" title="Plan_du_site">Plan du site</a> 
+    
+    </nav>
 </body>
 </html>  
